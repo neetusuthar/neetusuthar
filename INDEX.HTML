@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>neetu.suthar</title>
+  
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, 
+sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+  
+    padding: 20px;
+      text-align: center;
+    }
+
+    .header-title {
+      
+font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      
+background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .nav-list {
+      
+list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li {
+   
+   display: inline-block;
+      margin-right: 10px;
+    }
+
+    .nav-list li a {
+      
+text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+
+
+
+
+
+
+</style>
+</head> 
+<body>
+
+<header>
+ <h1 class="header-
+title">NEETU SUTHAR</h1>
+  <nav>
+    <ul class="nav-list">
+      
+<li><a href="about me.html">About me</a></li>
+      <li><a 
+href="study.html">Study Material</a></li>
+      <li><a 
+href="contact.html">Contact</a></li>
+  
+<li><a href="query.html">Query</a></li>
+   </ul>
+  </nav>
+</header>
+
+
+
+<style>
+
+body {
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    .slideshow-container {
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+    
+    .slideshow-image {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      height: 100%;
+      width: 100%;
+      transition: left 0.5s ease;
+    }
+    
+    .slideshow-image.active {
+      left: 0;
+    }
+}
+
+</style>
+
+<style>
+
+
+ /* Set the height and width of the scrollable container */
+    .scrollable-container {
+      height: 500px;
+      width: 100%;
+      overflow-y: scroll;
+    }
+    
+    /* Style the content inside the scrollable container */
+    .scrollable-content {
+      /* Add your styles here */
+    
+
+</style>
+<main>
+  
+
+
+<div class="scrollable-container">
+    <div class="scrollable-content">
+   
+
+<!-- my scrollable content goes here -->
+ 
+
+  <div class="slideshow-container">
+    <img class="slideshow-image active" src="image1.jpeg">
+    <img class="slideshow-image" src="image2.jpeg">
+    <img class="slideshow-image" src="image3.jpeg">
+  </div>
+
+  <script>
+    var images = document.querySelectorAll('.slideshow-image');
+    var currentImageIndex = 0;
+  
+    function showNextImage() {
+      images[currentImageIndex].classList.remove('active');
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      images[currentImageIndex].classList.add('active');
+    }
+  
+    setInterval(showNextImage, 3000);
+  </script>
+</main>
+
+      </div>
+  </div>
+
+
+
+
+
+
+<footer 
+style="position: fixed; left: 0; bottom: 0; width: 100%; 
+background-color: #333; color: #fff; text-align: center;">
+  
+<p>&copy; 2023 Neetu Suthar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
